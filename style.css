@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500;600;800&family=Josefin+Slab:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&family=Mulish:ital,wght@0,300;0,600;1,200;1,300;1,400;1,500&family=Open+Sans&display=swap');
+
+body{
+    background-color: rosybrown;
+    
+}
+.h1 {
+    position: absolute;
+    background-color: rgb(228, 224, 218); 
+    color:rgb(243, 83, 9);
+    text-align: center;
+    top: 18rem;
+    width: 39rem;
+    line-height: 1rem;
+}
+nav {
+    display: flex;
+    background-color: brown;
+
+ }
+ img{
+    margin-right: 5rem;
+ }
+ .form-l {
+    display: inline-block;
+    bottom: 120px;
+    position: absolute ;
+    
+     
+ }
+ .form {
+    width: 550px;
+    background-color: black;
+    color: #CCC;
+    bottom: 55rem;
+  }
+  
+  .form .section {
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 30px;
+  }
+  
+  .form .section .control-group {
+    margin-top: 10px; 
+  }
+  
+  .form .section .control-group .control {
+    width: 100%;
+  }
+  
+  
+  .form .section .control-group .control-label {
+    display: block;
+    width: 100%;
+    margin-bottom: 4px;
+  }
